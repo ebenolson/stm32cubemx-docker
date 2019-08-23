@@ -9,4 +9,4 @@ ADD auto-install.xml /tmp/auto-install.xml
 
 WORKDIR /tmp
 
-RUN unzip en.stm32cubemx.zip && /tmp/SetupSTM32CubeMX-4.25.0.linux auto-install.xml
+RUN unzip en.stm32cubemx.zip && /tmp/SetupSTM32CubeMX-5.3.0.linux auto-install.xml
